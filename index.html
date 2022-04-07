@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <link rel="stylesheet" href="stylesheet.css" />
+
+    <title>Frontend Mentor | Time tracking dashboard</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap");
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <article class="widget-info w1">
+        <div class="person-container border-r p-content">
+          <figure class="person-image">
+            <img
+              src="/images/image-jeremy.png"
+              alt="Person profile image"
+              class="person-img"
+            />
+          </figure>
+          <h4 class="margin-b">Report for</h4>
+          <h2 class="person-title">Jeremy Robson</h2>
+        </div>
+        <div class="timeframe-picker p-content">
+          <p class="timeframe-title">Daily</p>
+          <p class="timeframe-title">Weekly</p>
+          <p class="timeframe-title">Monthly</p>
+        </div>
+      </article>
+      <article class="widget w2">
+        <div class="content-area border-r p-content">
+          <div class="w-content">
+            <div class="w-menu">
+              <p class="w-title">Work</p>
+              <img
+                src="/images/icon-ellipsis.svg"
+                alt="Widget menu icon"
+                class="w-menu-icon"
+              />
+            </div>
+          </div>
+          <p class="current-time">32hrs</p>
+          <p class="previous-time">Last Week - 36hrs</p>
+        </div>
+      </article>
+      <article class="widget w3">3</article>
+      <article class="widget w4">4</article>
+      <article class="widget w5">5</article>
+      <article class="widget w6">6</article>
+      <article class="widget w7">7</article>
+    </main>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">CodePoku</a>.
+    </div>
+  </body>
+</html>
